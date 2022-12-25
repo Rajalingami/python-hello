@@ -1,6 +1,6 @@
+ARG NAME=RAJALINGAM
 FROM python:3
 
-ARG NAME=RAJALINGAM
 COPY requirements.txt requirements.txt
 
 ADD server.py /
